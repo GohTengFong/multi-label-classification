@@ -64,4 +64,4 @@ The data is then flattened to be pushed through the linear layers.
 2. `ReLU` is used to allow the neural networks to sieve out parts of a curve to combine with other parts of other curves thus, forming a new complex curve
 3. `Dropout(0.5)` is used to randomly drop 50% of the neurons during training to prevent overfitting
 
-The model boasted an F1-Score of 0.99514. This indicates that it achieved high precision and recall with very few false positives (misclassifications) or or false negatives (missed detections).
+The model boasted an F1-Score of 0.99514. This indicates that it achieved high precision and recall with very few false positives (misclassifications) or false negatives (missed detections).
